@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ststemaalquilesdeautos.Agencia">
+    <Position X="2" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAgAAACA=</HashCode>
+      <FileName>Agencia.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Reservación" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ststemaalquilesdeautos.Atencion_al_cliente">
+    <Position X="0.5" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Atencion_al_cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ststemaalquilesdeautos.Cliente">
+    <Position X="4.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAUAQAAAAQAAAAgAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Agencia" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ststemaalquilesdeautos.Reservación">
+    <Position X="9.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAAQGAAAAAAAAAAICAAAAAAAIAAgAAAAAA=</HashCode>
+      <FileName>Reservación.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pago" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ststemaalquilesdeautos.Pago">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAhAAAAAAAAAAAg=</HashCode>
+      <FileName>Pago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
